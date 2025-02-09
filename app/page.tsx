@@ -5,13 +5,16 @@ import { useState } from "react";
 import { ActProgressView } from "../components/ui/ActProgressView";
 import { useSetCheckedItems } from "../components/hooks/useSetCheckedItems";
 import { useUpdateStorageCheckedItems } from "../components/hooks/useUpdateStorageCheckedItems";
+import { useStorageItemName } from "@/components/hooks/useStorageItemName";
 
 export default function Home() {
   const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
 
-  useSetCheckedItems(setCheckedItems);
+  const [storageItemName, setStorageItemName] = useStorageItemName();
 
-  useUpdateStorageCheckedItems(checkedItems);
+  useSetCheckedItems(setCheckedItems, storageItemName);
+
+  useUpdateStorageCheckedItems(checkedItems, storageItemName);
 
   const handleCheckboxChange = (checkedItemKey: string) => {
     setCheckedItems((prev) => ({

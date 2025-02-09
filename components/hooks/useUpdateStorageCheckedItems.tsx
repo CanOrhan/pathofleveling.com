@@ -1,8 +1,9 @@
 "use client";
 import { useEffect } from "react";
 
-export function useUpdateStorageCheckedItems(checkedItems: Record<string, boolean>) {
+// Updates local storage as checkedItems change
+export function useUpdateStorageCheckedItems(checkedItems: Record<string, boolean>, storageItemName: string) {
   useEffect(() => {
-    localStorage.setItem("checkedItems", JSON.stringify(checkedItems));
+    localStorage.setItem(storageItemName, JSON.stringify(checkedItems));
   }, [checkedItems]);
 }
