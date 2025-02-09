@@ -2,9 +2,9 @@
 
 import { Sidebar } from "@/components/sidebar";
 import { useState } from "react";
-import { ActProgressView } from "./ActProgressView";
-import { useSetCheckedItems } from "./useSetCheckedItems";
-import { useUpdateStorageCheckedItems } from "./useUpdateStorageCheckedItems";
+import { ActProgressView } from "../components/ui/ActProgressView";
+import { useSetCheckedItems } from "../components/hooks/useSetCheckedItems";
+import { useUpdateStorageCheckedItems } from "../components/hooks/useUpdateStorageCheckedItems";
 
 export default function Home() {
   const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
