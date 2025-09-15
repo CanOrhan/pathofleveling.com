@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export function Sidebar() {
-  const acts = ["1", "2", "3", "1 Cruel", "2 Cruel", "3 Cruel"];
+  const acts = ["Act 1", "Act 2", "Act 3", "Act 4", "Interlude 1", "Interlude 2", "Interlude 3"];
 
   return (
     <div
@@ -23,7 +23,7 @@ export function Sidebar() {
                 className="w-full justify-start font-normal"
                 asChild
               >
-                <Link href={`/#act${act}`}>Act {act}</Link>
+                <Link href={`/#${act}`}>{act}</Link>
               </Button>
             ))}
           </div>

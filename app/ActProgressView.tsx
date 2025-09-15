@@ -8,9 +8,9 @@ export const ActProgressView = (props: {
 }) => (
   <div className="space-y-12">
     {Object.entries(actToAlmostLocationSteps).map(([act, almost], i) => (
-      <section key={act} id={`act${act}`} className="scroll-m-20">
+      <section key={act} id={act} className="scroll-m-20">
         <h2 className="text-2xl font-bold tracking-tight text-primary pb-4">
-          --== ACT {act} ==--
+          --== {act} ==--
         </h2>
         <div className="text-muted-foreground pb-12" key={act + i}>
           {almost.map((locationSteps, locationI) => (
@@ -22,10 +22,10 @@ export const ActProgressView = (props: {
                     <input
                       type="checkbox"
                       checked={
-                        props.checkedItems[locationSteps.title + locationI + stepI] || false
+                        props.checkedItems[act + locationSteps.title + locationI + stepI] || false
                       }
                       onChange={() =>
-                        props.handleCheckboxChange(locationSteps.title + locationI + stepI)
+                        props.handleCheckboxChange(act + locationSteps.title + locationI + stepI)
                       }
                     />
                     <HighlightedText key={step} text={step} />

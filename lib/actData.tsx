@@ -14,7 +14,7 @@ export const actToAlmostLocationSteps: Record<string, Array<{
   title: string;
   steps: string[];
   hasWaypoint: boolean;}>> = {
-  "1": [
+  "Act 1": [
     {
       title: "In The Riverbank",
       steps: ["Kill The Bloated Miller then enter town"],
@@ -140,7 +140,7 @@ export const actToAlmostLocationSteps: Record<string, Array<{
       hasWaypoint: false,
     },
   ],
-  "2": [
+  "Act 2": [
     {
       title: "In Vastiri Outskirts",
       steps: [
@@ -314,7 +314,7 @@ export const actToAlmostLocationSteps: Record<string, Array<{
       hasWaypoint: false,
     },
   ],
-  "3": [
+  "Act 3": [
     {
       title: "In Sandswept Marsh",
       steps: ["Find the entrance to the Ziggurat Encampment (town)."],
@@ -495,454 +495,356 @@ export const actToAlmostLocationSteps: Record<string, Array<{
       title: "In The Black Chambers",
       steps: [
         "Find and defeat Doryani, Royal Thaumaturge",
-        "Port back to town, walk through the gateway to enter Act 1 Cruel",
+        "Port back to town, walk through the gateway to enter Act 4",
       ],
       hasWaypoint: true,
     },
   ],
-  "1 Cruel": [
+  "Act 4": [
     {
-      title: "In Town",
+      title: "In Kingsmarch",
       steps: [
-        "Kill The Bloated Miller then enter town",
-        "Hand in quests and head out to Clearfell",
+        "Speak to Doryani, Alva, Rog, Tujen and Ange",
+        "Head down to the docks, speak to Kanu and Makoru",
+        "Get the Boat Charter from Rog",
+        "Return to Makoru to begin sailing"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Clearfell",
+      title: "In Isle of Kin",
       steps: [
-        "Kill Beira of the Rotten Pack. She's North/North East of the waypoint. Rewards 10% Cold Res.",
-        "Find the entrance to The Grelwood.",
+        "Optional: Find and defeat The Blind Beast for 2 Weapon Set Passive Skill Points",
+        "Find the entrance to the Volcanic Warrens"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Grelwood",
+      title: "In Volcanic Warrens",
       steps: [
-        "Find the waypoint and talk to the quest NPC. Usually central.",
-        "Find the entrance to The Grim Tangle, take the waypoint, and go back to The Grelwood.",
-        "Find the entrance to The Red Vale and go through.",
+        "Find and defeat Krutog, Lord of Kin",
+        "Free Matiki from their cage",
+        "Return to town and speak to Matiki to unlock Eye of Hinekora"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Red Vale",
+      title: "In Kedge Bay",
       steps: [
-        "Find the three obelisks and get the three quest items.",
-        "After getting the third, WP to town and talk to Renly to acquire the Runed Spikes. WP to The Grelwood.",
+        "Progress to Journey's End",
+        "Optional: Find Dead Man's Chest for Forgotten Bounty quest"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In The Grelwood",
+      title: "In Journey's End",
       steps: [
-        "Summon and talk to Una.",
-        "Stab the tree with your runed spikes then talk to Una.",
-        "Go back to town, talk to NPCs, then head to The Grim Tangle via waypoint to The Grelwood.",
+        "Find and defeat Captain Hartlin",
+        "Get the Verisium and return to town",
+        "Talk to Dannig for Verisium Spikes",
+        "Return and free Freya Hartlin",
+        "Defeat Omniphobia",
+        "Return to Tujen for Uncut Skill Gem Level 13"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Grim Tangle",
+      title: "In Abandoned Prison",
       steps: [
-        "Find the entrance to Cemetery of the Eternals. The Druid boss can be skipped.",
+        "Search for Solitary Confinement",
+        "Optional: Find Chapel Key and choose a permanent flask bonus",
+        "Optional: Find the Armoury secret room"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Cemetary of The Eternals",
+      title: "In Solitary Confinement",
       steps: [
-        "Find Mausoleum of the Praetor and kill the boss in there.",
-        "Find Tomb of the Consort and kill the boss in there.",
-        "Talk to Lachlann, open the gate, and kill him. ☹",
-        "Enter Hunting Grounds",
+        "Find and defeat The Prisoner (Use ballistas at 50%, 25%, and 10% HP)",
+        "Speak to the Hooded One and return to town"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Hunting Grounds",
+      title: "In Eye of Hinekora",
       steps: [
-        "Find and kill The Crowbell. Rewards two skill points.",
-        "Find and enter Ogham Farmlands.",
+        "Speak to Matiki and Navali",
+        "Look into the Well of Passing",
+        "Complete Kaom's, Maata's, and Rakiata's Tests",
+        "Optional: Find Silent Hall for +5% Maximum Mana"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Ogham Farmlands",
+      title: "In Halls of the Dead",
       steps: [
-        "Find Una's lute. Usually around the center of the zone. Rewards 2 skill points.",
-        "Find and take the entrance to Ogham Village.",
+        "Find and defeat Yama, the White",
+        "Optional: Complete strength/resist tests for permanent tattoos",
+        "Enter Trial of the Ancestors",
+        "Speak to Navali for 2 Weapon Set Points",
+        "Return to town"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Ogham Village",
-      steps: ["Find and kill The Executioner", "Go to The Manor Ramparts"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Manor Ramparts",
+      title: "In Whakapanu Island",
       steps: [
-        "Find the entrance to Ogham Manor. This is always in the opposite direction of the waypoint after you zone in.",
+        "Find entrance to Singing Caverns",
+        "Optional: Kill Great White One for rewards from Kaimana",
+        "Optional: Find Torn Map Piece for Forgotten Bounty quest"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Ogham Manor",
+      title: "In Singing Caverns",
       steps: [
-        "Find and kill Candlemass, the Living Rite",
-        "Find and go down stairs twice",
-        "Find elevator to boss, kill boss, go back to town",
+        "Find and defeat Diamora, Song of Death",
+        "Optional: Find Beckoning Clam for Rare Pearlescent Amulet",
+        "Speak to Hooded One and return to town"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
-      steps: ["Talk to The Hooded One to go to act 2"],
-      hasWaypoint: true,
+      title: "In Shrike Island",
+      steps: [
+        "Find and defeat Scourge of the Skies",
+        "Speak to the Hooded One and Makoru",
+        "Optional: Find Corpse Nest for final Torn Map Piece"
+      ],
+      hasWaypoint: true
     },
+    {
+      title: "In Arastas",
+      steps: [
+        "Speak to Missionary Lorandis",
+        "Break the barrier and survive the ambush",
+        "Find and defeat Torvian, Hand of the Saviour",
+        "Optional: Find Morning and Evening Bells for currency"
+      ],
+      hasWaypoint: true
+    },
+    {
+      title: "In The Excavation",
+      steps: [
+        "Find and defeat Benedictus, First Herald",
+        "Follow Tavakai and Makoru",
+        "Witness the Hooded One's attempt to reforge the Weapon",
+        "Return to town and sail to Ngakanu"
+      ],
+      hasWaypoint: true
+    },
+    {
+      title: "In Ngakanu",
+      steps: [
+        "Fight through the blood-fevered tribe members",
+        "Find the entrance to Heart of the Tribe"
+      ],
+      hasWaypoint: true
+    },
+    {
+      title: "In Heart of the Tribe",
+      steps: [
+        "Optional: Find Meeting House for extra loot",
+        "Find and defeat Tavakai, the Chieftain",
+        "Witness the Hooded One cure Tavakai and Makoru",
+        "Return to Kingsmarch and speak to the Hooded One"
+      ],
+      hasWaypoint: true
+    }
   ],
-  "2 Cruel": [
+  "Interlude 1": [
     {
-      title: "In Vastiri Outskirts",
+      title: "In The Refuge",
       steps: [
-        "Find and kill Rathbreaker",
-        "Portal back to camp, enter caravan",
+        "Speak to the Hooded One, Renly, Finn & Una",
+        "Head to the Scorched Farmlands"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
+      title: "In Scorched Farmlands",
       steps: [
-        "Speak to everyone then use the desert map to go to Mawdun Quarry",
+        "Find and defeat Isolde of the White Shroud and Heldra of the Black Pyre",
+        "Progress to the Stones of Serle"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Mawdun Quarry",
-      steps: ["Find and take the entrance to Mawdun Mine"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Mawdun Mine",
-      steps: ["Find and kill Rudja, the Dread Engineer", "Talk to Risu then portal back to town"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
+      title: "In Stones of Serle",
       steps: [
-        "Talk to Risu, then use desert map to go to The Halani Gates",
-        "Talk to Sekhema Asala at the gates, go back to the caravan, talk to Risu again, then to Sekhema Asala again",
-        "Use desert map to go to The Halani Gates again",
+        "Activate all 6 Megaliths around the edge of the zone",
+        "Head to the Stone Circle and defeat Siora, Blade of the Mists",
+        "Speak to Una and return to Scorched Farmlands"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Traitor's Passage",
-      steps: ["Find the entrance to The Halani Gates"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Halani Gates",
+      title: "In The Blackwood",
       steps: [
-        "Find and kill Jamanra, the Risen King. Stay close to the canyon. Cross the canyon 3 times to find the boss.",
-        "Go down the stairs and to the bottom right of the zone, then back to town",
+        "Optional: Find Omen Altars for crafting materials",
+        "Find the entrance to Holten"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
-      steps: ["Talk to everyone, then use desert map to go to Keth"],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Keth",
+      title: "In Holten",
       steps: [
-        "Kill Kabala, Constrictor Queen. Rewards 2 skill points.",
-        "Kill snakes until you find the Kabala Clan relic.",
-        "Find and enter The Lost City.",
+        "Optional: Defeat Sigbert and Godwin for loot",
+        "Optional: Visit the Soul of the Ferryman for Greater Runes",
+        "Find entrances to Wolvenhold and Holten Estate"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Lost City",
+      title: "In Wolvenhold",
       steps: [
-        "Find entrance and go to the Buried Shrines, then the heart of keth",
-        "Kill Azarian, the Forsaken Son",
-        "Talk to Halani, the Water Goddess, loot the cinders, burn the goddess, loot the essence of water.",
-        "Head back to town.",
+        "Find and defeat Oswin, the Dread Warden",
+        "Consume Warden's Ledger for 2 Weapon Set Points"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
-      steps: ["Use desert map to go to Mastodon Badlands"],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Mastodon Badlands",
-      steps: ["Find the entrance to The Bone Pits"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Bone Pits",
+      title: "In Holten Estate",
       steps: [
-        "Find and kill the zone boss and loot the horn",
-        "Kill hyenas until you found the sun clan relic",
-        "Tp back to town.",
+        "Find and defeat Thane Wulfric and Lady Elyswyth",
+        "Return to town and speak to the Hooded One"
       ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
-      steps: ["Use desert map to go to Valley of the Titans"],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Valley of the Titans",
-      steps: [
-        "Find and click the three ancient seals",
-        "Find the medallion and place the two relics in there. Rewards a permanent buff.",
-        "Find and take the entrance to The Titan Grotto",
-      ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Titan Grotto",
-      steps: ["Find and kill the boss, then go back to town"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
-      steps: [
-        "Talk to Zarka, then Asala",
-        "Use the desert map to travel to the halani gates",
-        "Go to the front of the caravan and sound the horn",
-        "Use the desert map to travel to Deshar",
-      ],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Deshar",
-      steps: [
-        "Find the final letter on a corpse on the ground. Rewards two skill points on hand in.",
-        "Find the entrance to the path of mourning",
-        "Go the The Path of Mourning",
-      ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Path of Mourning",
-      steps: ["Find the entrance to the Spires of Deshar"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Spires of Deshar",
-      steps: [
-        "Find the sisters of Garukhan",
-        "Find and kill Tor Gul, the Defiler",
-        "Portal back to town",
-      ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
-      steps: [
-        "Turn in the final letter at Shambrin",
-        "Talk to everyone, then use desert map to go to the dreadnought",
-      ],
-      hasWaypoint: false,
-    },
-    {
-      title: "In The Dreadnought",
-      steps: [
-        "Find the entrance to the Dreadnought Vanguard, then find and kill Jamanra, the Abomination",
-        "Portal back to town",
-      ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
-      steps: [
-        "Leave the The Ardura Caravan and talk to The Hooded One",
-        "Go back to The Ardura Caravan and talk to Sekhema Asala to go to Act 3",
-      ],
-      hasWaypoint: false,
-    },
+      hasWaypoint: true
+    }
   ],
-  "3 Cruel": [
+  "Interlude 2": [
     {
-      title: "In Sandswept Marsh",
-      steps: ["Find the entrance to the Ziggurat Encampment (town)."],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
-      steps: ["Talk to everyone and entrance into Jungle Ruins"],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Jungle Ruins",
+      title: "In The Khari Bazaar",
       steps: [
-        "Find the entrance to The Venom Crypts (near waypoint)",
-        "Find and kill Mighty Silverfist",
-        "Find and go through the entrance to Infested Barrens",
+        "Speak to the Hooded One and Sekhema Asala",
+        "Head to the Khari Crossing"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Infested Barrens",
+      title: "In The Khari Crossing",
       steps: [
-        "Find the entrance to Chimeral Wetlands. Enter zone, take waypoint, backtrack to Infested Barrens.",
-        "Find the entrance to The Azak Bog. Enter zone, take waypoint, backtrack to Infested Barrens.",
-        "Find the entrance to The Matlan Waterways and the waypoint.",
-        "Zone Note: Whichever waypoint you find last, use it to travel back to Jungle Ruins.",
+        "Find Molten Shrine for +5% Maximum Life",
+        "Defeat Akthi and Anundr",
+        "Return to Risu for 2 Weapon Set Points",
+        "Collect waypoints from connected zones"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Jungle Ruins",
-      steps: ["Enter The Venom Crypts"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Venom Crypts",
-      steps: ["Find the corpse for the venom phial, then go back to town"],
-      hasWaypoint: false,
-    },
-    {
-      title: "In Town",
+      title: "In Pools of Khatal",
       steps: [
-        "Go back to town, turn in phial at Servi for a reward. This can not be changed later.",
-        "Go to The Azak Bog.",
+        "Progress to Sel Khari Sanctuary"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In The Azak Bog",
+      title: "In Sel Khari Sanctuary",
       steps: [
-        "Find the Flameskin ritual and activate all, it gives 25% fire res and rarity for the rest of the zone",
-        "Find and kill Ignagduk. Rewards 30 spirit.",
-        "Go back to town and then to The Chimeral Wetlands",
+        "Find and defeat Elzarah, the Cobra Lord",
+        "Optional: Find Yoon's and Rangeen's Barya for rewards",
+        "Speak to Sekhema Asala"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Chimeral Wetlands",
-      steps: ["Find and kill Xyclucian, the Chimera", "Enter Jiquani's Machinarium"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Jiquani's Machinarium",
+      title: "In The Galai Gates",
       steps: [
-        "Find the first small soul core, then open the door",
-        "Find two more small soul cores",
-        "Find the entrance towards Jiquani's Sanctum",
-        "Find and kill Blackjaw. Rewards 10% fire res.",
-        "Checkpoint port to the entrance, then go to Jiquani's Sanctum",
+        "Find and defeat Vornas, the Fell Flame",
+        "Enter Qimah"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Jiquani's Sanctum",
+      title: "In Qimah",
       steps: [
-        "Don't forget the activate the waypoint right after the entry.",
-        "Talk to Alva",
-        "Find two medium soul cores",
-        '"Activate both generators. Place down a portal BEFORE you activate the second generator."',
-        "Portal back to town and waypoint back to the Jiquani's Sanctum.",
-        "Kill Zicoatl, Warden of the core and loot the large soul core",
-        "Go back to Infested Barrens waypoint",
+        "Find ceremony site and speak to Jado",
+        "Optional: Find Orbala's Pillar for permanent buff",
+        "Enter Qimah Reservoir"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Infested Barrens",
+      title: "In Qimah Reservoir",
       steps: [
-        "Insert the large soul core and go to The Matlan Waterways afterwards",
+        "Find and defeat Azmadi, the Faridun Prince",
+        "Optional: Find Sacred Wells for currency",
+        "Interact with Grand Barya",
+        "Speak to Jado and Sekhema Asala",
+        "Return to town and speak to the Hooded One"
       ],
-      hasWaypoint: true,
-    },
+      hasWaypoint: true
+    }
+  ],
+  "Interlude 3": [
     {
-      title: "In The Matlan Waterways",
+      title: "In The Glade",
       steps: [
-        "Activate every single lever to navigate through the zone, then activate the big one at the end",
-        "Tp back to town",
+        "Speak to the Hooded One, Doryani, Hilda and Delwyn",
+        "Head to the Ashen Forest"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
+      title: "In Ashen Forest",
       steps: [
-        "Go down the stairs near the well / The Hooded One",
-        "Talk to Alva, enter The Drowned City",
+        "Optional: Find Ancient Monument for Uncut Skill Gem Level 14",
+        "Find entrance to Kriar Village"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In The Drowned City",
+      title: "In Kriar Village",
       steps: [
-        "Find the entrance to The Apex of Filth. Enter zone, take waypoint, and if it's your first character of the league; backtrack to The Drowned City.",
-        "Enter The Apex of Filth.",
+        "Find and defeat Lythara, the Wayward Spear",
+        "Consume Gemcrust Skull for +40 Spirit and Uncut Spirit Gem",
+        "Progress to Glacial Tarn"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In The Apex of Filth",
-      steps: ["Find and kill The Queen of Filth, then portal back to town"],
-      hasWaypoint: true,
-    },
-    {
-      title: "In Town",
+      title: "In Glacial Tarn",
       steps: [
-        "Go down the stairs near the well / The Hooded One again, and enter The Temple of Kopec",
+        "Find entrance to Howling Caves",
+        "Defeat Rakkar, the Frozen Talon",
+        "Progress to Kriar Peaks"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In The Temple of Kopec",
+      title: "In Howling Caves",
       steps: [
-        "Go up the stairs twice, then kill Ketzuli, High Priest of the Sun",
+        "Find and defeat the Abominable Yeti",
+        "Return Icy Tusks to Hilda for 2 Weapon Set Points"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Town",
+      title: "In Kriar Peaks",
       steps: [
-        "Talk to Alva and ride the elevator up",
-        "Go through the gateway, then down the stairs again to enter Utzaal",
+        "Optional: Speak to Elder Madox for a free unique item",
+        "Take the platform to Etched Ravine"
       ],
-      hasWaypoint: false,
+      hasWaypoint: true
     },
     {
-      title: "In Utzaal",
+      title: "In Etched Ravine",
       steps: [
-        "Search and kill Viper Napuatzi.",
-        "Find the entrance to Aggorat and enter Aggorat.",
+        "Find and defeat Stormgore, the Guardian",
+        "Enter the Cuachic Vault"
       ],
-      hasWaypoint: true,
+      hasWaypoint: true
     },
     {
-      title: "In Aggorat",
+      title: "In The Cuachic Vault",
       steps: [
-        "Follow the voices of the Trial of Atziri, go through to find the next checkpoint",
-        "Find the entrance towards The Black Chambers",
-        "Find the sacrificial table",
-        "Farm The Sacrificial Heart if you haven't found it yet.",
-        "Use the checkpoint to go the sacrificial table, loot the dagger, place the heart, stab the heart",
-        "Use the checkpoint to go to The Black Chambers, enter The Black Chambers",
+        "Find and defeat Zelina and Zolin",
+        "Speak to Doryani",
+        "Return to Act 4: Kingsmarch",
+        "Speak to the Hooded One for 2 Weapon Set Points"
       ],
-      hasWaypoint: true,
-    },
-    {
-      title: "In The Black Chambers",
-      steps: [
-        "Find and defeat Doryani, Royal Thaumaturge",
-        "Port back to town, talk to Doryiana to finish the campaign!",
-      ],
-      hasWaypoint: true,
-    },
+      hasWaypoint: true
+    }
   ],
 };
 
