@@ -1,3 +1,6 @@
+# Archived
+Hey folks! I've decided to achrive this project as I'm spending more time on PoE 1 & there are some really good campaign guides out there for PoE 2!
+
 # The Project
 Source code for https://www.pathofleveling.com/ - A campaign walkthrough for Path of Exile 2.
 
